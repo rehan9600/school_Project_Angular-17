@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { MaterialModule } from '../../material.module';
 
 @Component({
-  selector: 'app-navbar',
+  selector: 'app-footer',
   standalone: true,
   imports: [MaterialModule],
-  templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.scss'
+  templateUrl: './footer.component.html',
+  styleUrl: './footer.component.scss'
 })
-export class NavbarComponent {
+export class FooterComponent {
 
 }
