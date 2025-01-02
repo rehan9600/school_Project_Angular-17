@@ -13,4 +13,10 @@ export const routes: Routes = [
         // canActivate: [loggedINGuard],
         // providers: [loggedINGuard]
     },
+    {
+        path: '',
+        loadChildren: () => import('./shared/shared.module').then(m => m.SharedModule),
+        // canActivate: [loggedINGuard],
+        // providers: [loggedINGuard]
+    },
 ];

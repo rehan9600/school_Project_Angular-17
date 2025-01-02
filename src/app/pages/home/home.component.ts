@@ -2,16 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { MaterialModule } from '../../material.module';
 import { CarouselModule } from '@coreui/angular';
 import { NgFor } from '@angular/common';
-
-// import { NgFor } from '@angular/common';
-// import { RouterLink } from '@angular/router';
-// import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [MaterialModule, CarouselModule,NgFor],
+  imports: [MaterialModule, CarouselModule, NgFor, RouterModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
